@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>Nancy's Blog</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="main.css">
-
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
+<div class="main-wrapper">
 <header>
     <nav>
         <div class="logo"><a href="#">Autumn Montage</a></div>
@@ -28,6 +29,8 @@
             <div class="more">
                 Continued
             </div>
+            <span class="fas fa-angle-double-down"></span>
+
         </div>
     </div>
 
@@ -41,9 +44,9 @@
             <p class="sub-heading">Retro and Chill.</p>
         </div>
         <div class="icon-group">
-            <span class="icon">item1</span>
-            <span class="icon">item2</span>
-            <span class="icon">item3</span>
+            <span class="icon"><i class="fas fa-camera-retro"></i></span>
+            <span class="icon"><i class="fas fa-film"></i></span>
+            <span class="icon"><i class="fas fa-music"></i></span>
         </div>
     </div>
     </section>
@@ -128,6 +131,14 @@
                         <h3>heading3</h3>
                         <p>rgiagraiubaobfoabvaodnaow agiugbu</p>
                     </div>
+                    <div class="card">
+                        <h3>heading3</h3>
+                        <p>rgiagraiubaobfoabvaodnaow agiugbu</p>
+                    </div>
+                    <div class="card">
+                        <h3>heading3</h3>
+                        <p>rgiagraiubaobfoabvaodnaow agiugbu</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -138,7 +149,15 @@
 
 </div>
 <footer>
-
+    <ul class="share-group">
+        <li><i class="fas fa-camera-retro"></i></li><!-- this icon's 1) style prefix == fas and 2) icon name == igloo -->
+        <li><i class="fas fa-film"></i></li>
+        <li><i class="fas fa-music"></i></li>
+    </ul>
+    <div class="copyright">
+        &copy nancywan - 2019
+    </div>
 </footer>
+</div>
 </body>
 </html>
