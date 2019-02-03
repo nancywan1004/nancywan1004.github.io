@@ -302,4 +302,43 @@ ul.share-group{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
+}
+
+#sidebar{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background: #0c5460;
+    padding: 20px 0;
+    transition: right 0.5s;
+}
+.mask{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -300px;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+}
+#sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+#sidebar ul a{
+    text-decoration: none;
+    width: 100%;
+    color: papayawhip;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+#sidebar ul a:hover{
+    background: #117a8b;
 }

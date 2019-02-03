@@ -1,0 +1,21 @@
+;$(function()
+{
+    'use strict';
+
+    var sidebar = $('#sidebar'),
+        mask = $('.mask'),
+        sidebar_trigger = $('#sidebar_trigger');
+
+    function ShowSideBar(){
+        mask.fadeIn();
+        sidebar.css('right',0);
+    }
+
+    function HideSideBar(){
+        mask.fadeOut();
+        sidebar.css('right', -sidebar.width());
+    }
+    sidebar_trigger.on('click', ShowSideBar);
+    mask.on('click',HideSideBar);
+
+})
