@@ -306,10 +306,9 @@ ul.share-group{
 }
 
 #sidebar{
-    display: none;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -300px;
     bottom: 0;
     width: 300px;
     background: #0c5460;
@@ -317,10 +316,11 @@ ul.share-group{
     transition: right 0.5s;
 }
 .mask{
+    display: none;
     position: fixed;
     top: 0;
     bottom: 0;
-    right: -300px;
+    right: 0;
     left: 0;
     background: rgba(0,0,0,0.3);
 }
