@@ -342,3 +342,10 @@ ul.share-group{
 #sidebar ul a:hover{
     background: #117a8b;
 }
+
+.back-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: 1px solid #b1dfbb;
+}
